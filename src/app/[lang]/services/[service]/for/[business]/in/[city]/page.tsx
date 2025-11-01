@@ -17,33 +17,25 @@ type Props = {
   }>;
 };
 
-// Generate static params for top combinations
+// Generate static params for top combinations ONLY
+// Rest will be generated on-demand (ISR)
 export async function generateStaticParams() {
-  // Core services for Phase 1 (most popular)
+  // Only 4 most popular services for initial build
   const coreServices = [
     'whatsapp-bot',
     'instagram-bot', 
-    'erp-system',
-    'crm-system',
     'nextjs-website',
-    'wordpress-site',
-    'seo-optimization',
-    'ai-automation-solutions'
+    'wordpress-site'
   ];
 
-  // Top 30 business types (highest potential)
+  // Only 10 highest potential business types
   const topBusinessKeys = [
-    'restaurants', 'cafes', 'fast-food', 'hospitals', 'clinics', 
-    'dental-clinics', 'pharmacies', 'schools', 'universities', 'training-centers',
-    'clothing-stores', 'electronics-stores', 'mobile-stores', 'supermarkets',
-    'beauty-salons', 'barber-shops', 'hotels', 'real-estate', 'gyms',
-    'law-firms', 'accounting-firms', 'marketing-agencies', 'construction-companies',
-    'car-dealerships', 'car-repair-shops', 'software-companies', 'consulting-firms',
-    'wedding-planners', 'event-photographers', 'printing-presses'
+    'restaurants', 'cafes', 'hospitals', 'clinics', 'schools',
+    'clothing-stores', 'beauty-salons', 'hotels', 'real-estate', 'gyms'
   ];
 
-  // Top 8 cities (highest business potential)
-  const topCities = ['baghdad', 'basra', 'mosul', 'erbil', 'najaf', 'karbala', 'sulaymaniyah', 'kirkuk'];
+  // Only 4 major cities for initial build
+  const topCities = ['baghdad', 'basra', 'erbil', 'mosul'];
 
   const languages: ('ar' | 'en')[] = ['ar', 'en'];
 
@@ -64,10 +56,15 @@ export async function generateStaticParams() {
     }
   }
 
-  // This generates: 8 services × 30 businesses × 8 cities × 2 languages = 3,840 pages
-  console.log(`🚀 Generating ${params.length} programmatic pages`);
+  // This generates: 4 services × 10 businesses × 4 cities × 2 languages = 320 pages
+  // Rest will be generated on-demand via ISR
+  console.log(`🚀 Pre-generating ${params.length} most popular pages. Rest generated on-demand.`);
   return params;
 }
+
+// Enable ISR - generate other pages on-demand and cache for 1 hour
+export const revalidate = 3600; // 1 hour
+export const dynamicParams = true; // Allow generation of pages not in generateStaticParams
 
 // Generate metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

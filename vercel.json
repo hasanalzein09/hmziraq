@@ -3,9 +3,17 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "functions": {
-    "src/app/**/*.{js,jsx,ts,tsx}": {
+    "src/app/api/**/*": {
+      "maxDuration": 30
+    },
+    "src/app/**/page": {
       "maxDuration": 30
     }
+  },
+  "images": {
+    "sizes": [640, 750, 828, 1080, 1200],
+    "domains": ["hmziraq.services", "www.hmziraq.services"],
+    "formats": ["image/webp"]
   },
   "headers": [
     {
