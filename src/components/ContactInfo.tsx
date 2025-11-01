@@ -3,7 +3,7 @@ interface ContactInfoProps {
   variant?: 'header' | 'footer' | 'inline';
 }
 
-export default function ContactInfo({ lang, variant = 'inline' }: ContactInfoProps) {
+export default function ContactInfo({ lang = 'ar', variant = 'inline' }: ContactInfoProps) {
   const content = {
     ar: {
       email: 'البريد الإلكتروني',
@@ -19,7 +19,7 @@ export default function ContactInfo({ lang, variant = 'inline' }: ContactInfoPro
     },
   };
 
-  const t = content[lang];
+  const t = content[lang] || content.ar;
 
   if (variant === 'header') {
     return (
