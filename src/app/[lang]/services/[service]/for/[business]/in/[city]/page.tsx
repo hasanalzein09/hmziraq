@@ -716,6 +716,3 @@ export default async function ProgrammaticServicePage({ params }: Props) {
     </>
   );
 }
-
-// Disable static generation for remaining pages (on-demand)
-export const dynamicParams = true;
