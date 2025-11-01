@@ -12,15 +12,17 @@ interface CityPageProps {
 }
 
 export async function generateStaticParams() {
-  // توليد صفحات للمدن الرئيسية فقط في البناء
-  const mainCities = IRAQ_CITIES.filter(city => city.businessPotential === 'high');
+  // 🎯 Pre-generate ONLY top 4 cities (not all 16 high-potential!)
+  // Rest accessible via ISR on-demand
+  const topCities = ['baghdad', 'basra', 'erbil', 'mosul'];
   
   return ['ar', 'en'].flatMap(lang =>
-    mainCities.map(city => ({
+    topCities.map(cityKey => ({
       lang,
-      city: city.key
+      city: cityKey
     }))
   );
+  // Generates: 4 cities × 2 languages = 8 pages only
 }
 
 export async function generateMetadata({ params }: CityPageProps): Promise<Metadata> {

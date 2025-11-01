@@ -8,17 +8,19 @@ type Props = {
   params: Promise<{ lang: 'ar' | 'en'; slug: string }>;
 };
 
-// Generate first 100 projects for static generation (rest will be on-demand)
+// 🎯 Pre-generate only TOP 10 showcase projects (not 100!)
+// Rest accessible via ISR on-demand
 export async function generateStaticParams() {
   const languages = ['ar', 'en'];
-  const projects = portfolioProjects.slice(0, 100); // Generate first 100 projects
+  const topProjects = portfolioProjects.slice(0, 10); // Only top 10 showcase projects
   
-  return projects.flatMap(project => 
+  return topProjects.flatMap(project => 
     languages.map(lang => ({
       lang,
       slug: project.slug
     }))
   );
+  // Generates: 10 projects × 2 languages = 20 pages only
 }
 
 // SEO metadata for each project page
