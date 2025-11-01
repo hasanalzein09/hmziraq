@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# HMZ Iraq - Massive SEO Next.js Platform 🚀
 
-First, run the development server:
+موقع عراقي ضخم يستهدف محرك بحث Google بأكثر من **11,908 صفحة برمجية** لجميع الخدمات الرقمية والمصالح والمؤسسات في العراق.
 
+## 📊 الإحصائيات الحالية
+- **11,908 صفحة** تم توليدها تلقائياً
+- **8 خدمات** رقمية (بوتات، مواقع، تطبيقات، SEO، AI)
+- **35 نوع مصلحة** (مطاعم، عيادات، مدارس، متاجر، صالونات، فنادق...)
+- **24 مدينة** عراقية (بغداد، البصرة، أربيل، الموصل...)
+- **لغتان**: عربي وإنجليزي
+- **Sitemap & Robots.txt**: جاهز للأرشفة
+
+## 🎯 الهدف
+الوصول إلى **عشرات الآلاف من الزوار يومياً** من Google عبر استهداف جميع تركيبات البحث الممكنة:
+- `[خدمة] + [نوع مصلحة] + [مدينة]`
+- مثال: "بوت واتساب مطاعم بغداد"
+
+## ✨ المميزات
+- **توليد صفحات برمجي (Programmatic SEO)**: كل صفحة لها محتوى وميتا داتا فريدة
+- **SEO متقدم**: Meta tags، Schema markup، Keywords، Sitemap
+- **بنية ديناميكية**: `/[lang]/services/[service]/[business]/[city]`
+- **سريع وقابل للتوسع**: Next.js 16 + TypeScript + Tailwind CSS
+- **ثنائي اللغة**: دعم كامل للعربية والإنجليزية
+
+## 🚀 البدء السريع
+
+تثبيت التبعيات:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+تشغيل الوضع التطويري:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+بناء للإنتاج:
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+معاينة البناء:
+```bash
+npm start
+```
 
-## Learn More
+## 📁 الهيكلية
+```
+src/
+├── app/
+│   ├── [lang]/              # صفحات متعددة اللغات
+│   │   ├── page.tsx         # الصفحة الرئيسية
+│   │   ├── services/        # صفحات الخدمات
+│   │   │   └── [service]/[business]/[city]/  # 11,908 صفحة
+│   ├── sitemap.ts           # Sitemap ديناميكي
+│   └── robots.ts            # Robots.txt
+├── content/
+│   ├── businessTypes.ts     # 35 نوع مصلحة
+│   ├── services.ts          # 8 خدمات
+│   └── languages.ts         # لغتان
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📈 خطة التوسع القادمة
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### المرحلة 1: توسيع المحتوى
+- [ ] إضافة 100+ نوع مصلحة جديد
+- [ ] إضافة 30+ مدينة عراقية
+- [ ] الوصول إلى **50,000+ صفحة**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### المرحلة 2: المحتوى الغني
+- [ ] كتابة محتوى مفصل (1500+ كلمة) لأهم 100 صفحة
+- [ ] إضافة 50 مقال في المدونة
+- [ ] إضافة دراسات حالة ونماذج نجاح
 
-## Deploy on Vercel
+### المرحلة 3: SEO المتقدم
+- [ ] تحسين Schema Markup لكل نوع صفحة
+- [ ] إضافة FAQ لكل صفحة
+- [ ] تحسين Core Web Vitals
+- [ ] ضغط الصور وتحسين الأداء
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### المرحلة 4: التتبع والتحسين
+- [ ] ربط Google Analytics
+- [ ] ربط Google Search Console
+- [ ] A/B Testing للعناوين والمحتوى
+- [ ] مراقبة ترتيب الكلمات المفتاحية
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 التخصيص
+
+### إضافة نوع مصلحة جديد
+عدّل ملف `src/content/businessTypes.ts`:
+```typescript
+{
+  key: 'gyms',
+  name: { ar: 'صالات رياضية', en: 'Gyms' },
+  description: { ar: '...', en: '...' },
+  keywords: ['...'],
+  cities: ['بغداد', 'البصرة', ...]
+}
+```
+
+### إضافة خدمة جديدة
+عدّل ملف `src/content/services.ts`:
+```typescript
+{
+  key: 'mobile-app',
+  name: { ar: 'تطبيقات موبايل', en: 'Mobile Apps' }
+}
+```
+
+## 📊 النتائج المتوقعة
+- **بعد 3 أشهر**: 1,000-5,000 زائر يومياً
+- **بعد 6 أشهر**: 10,000-20,000 زائر يومياً
+- **بعد 12 شهر**: 30,000-50,000 زائر يومياً
+
+## 🛠️ التقنيات المستخدمة
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Programmatic SEO
+- Dynamic Routing
+- Static Site Generation (SSG)
+
+## 📝 الترخيص
+جميع الحقوق محفوظة © 2025 HMZ Iraq
+
+---
+
+**جاهز لتطوير العراق الرقمي! 🇮🇶**

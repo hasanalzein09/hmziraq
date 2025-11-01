@@ -1,0 +1,2103 @@
+✅ Generated 150 new projects (50 CRM + 50 Invoicing + 50 POS)
+Copy the following code and add it before the closing ]; in portfolioProjects.ts:
+
+  {
+    id: 'project-451',
+    slug: 'crm-real-estate-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لشركة عقارات في بغداد',
+      en: 'CRM System for Real Estate Company in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء لتتبع العقارات والعملاء المحتملين',
+      en: 'CRM system for tracking properties and potential customers',
+    },
+    category: { ar: 'عقارات', en: 'Real Estate' },
+  },
+  {
+    id: 'project-452',
+    slug: 'crm-car-dealership-basra',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمعرض سيارات في البصرة',
+      en: 'CRM System for Car Dealership in Basra',
+    },
+    description: {
+      ar: 'نظام إدارة المبيعات والعملاء لمعرض السيارات',
+      en: 'Sales and customer management system for car showroom',
+    },
+    category: { ar: 'سيارات', en: 'Automotive' },
+  },
+  {
+    id: 'project-453',
+    slug: 'crm-insurance-company-erbil',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لشركة تأمين في أربيل',
+      en: 'CRM System for Insurance Company in Erbil',
+    },
+    description: {
+      ar: 'نظام إدارة العملاء والوثائق والمطالبات',
+      en: 'Customer, policy, and claims management system',
+    },
+    category: { ar: 'تأمين', en: 'Insurance' },
+  },
+  {
+    id: 'project-454',
+    slug: 'crm-telecom-provider-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمزود اتصالات في بغداد',
+      en: 'CRM System for Telecom Provider in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة المشتركين والشكاوى والفواتير',
+      en: 'Subscriber, complaints, and billing management',
+    },
+    category: { ar: 'اتصالات', en: 'Telecom' },
+  },
+  {
+    id: 'project-455',
+    slug: 'crm-gym-chain-najaf',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لسلسلة نوادي رياضية في النجف',
+      en: 'CRM System for Gym Chain in Najaf',
+    },
+    description: {
+      ar: 'نظام إدارة الأعضاء والاشتراكات والتسويق',
+      en: 'Members, subscriptions, and marketing management',
+    },
+    category: { ar: 'رياضة', en: 'Fitness' },
+  },
+  {
+    id: 'project-456',
+    slug: 'crm-travel-agency-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لوكالة سفر في بغداد',
+      en: 'CRM System for Travel Agency in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة الحجوزات والعملاء والعروض السياحية',
+      en: 'Bookings, customers, and travel packages management',
+    },
+    category: { ar: 'سياحة', en: 'Travel' },
+  },
+  {
+    id: 'project-457',
+    slug: 'crm-medical-clinic-basra',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لعيادة طبية في البصرة',
+      en: 'CRM System for Medical Clinic in Basra',
+    },
+    description: {
+      ar: 'نظام إدارة المرضى والمواعيد والمتابعات',
+      en: 'Patients, appointments, and follow-ups management',
+    },
+    category: { ar: 'طب', en: 'Medical' },
+  },
+  {
+    id: 'project-458',
+    slug: 'crm-law-firm-erbil',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمكتب محاماة في أربيل',
+      en: 'CRM System for Law Firm in Erbil',
+    },
+    description: {
+      ar: 'نظام إدارة القضايا والعملاء والاستشارات',
+      en: 'Cases, clients, and consultations management',
+    },
+    category: { ar: 'قانون', en: 'Legal' },
+  },
+  {
+    id: 'project-459',
+    slug: 'crm-beauty-salon-chain-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لسلسلة صالونات تجميل في بغداد',
+      en: 'CRM System for Beauty Salon Chain in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة الحجوزات والعملاء وبرامج الولاء',
+      en: 'Bookings, customers, and loyalty programs management',
+    },
+    category: { ar: 'تجميل', en: 'Beauty' },
+  },
+  {
+    id: 'project-460',
+    slug: 'crm-advertising-agency-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لوكالة إعلانات في بغداد',
+      en: 'CRM System for Advertising Agency in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة العملاء والحملات الإعلانية',
+      en: 'Clients and advertising campaigns management',
+    },
+    category: { ar: 'إعلان', en: 'Advertising' },
+  },
+  {
+    id: 'project-461',
+    slug: 'crm-system-project-11',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 11',
+      en: 'CRM System for Project 11',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-462',
+    slug: 'crm-system-project-12',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 12',
+      en: 'CRM System for Project 12',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-463',
+    slug: 'crm-system-project-13',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 13',
+      en: 'CRM System for Project 13',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-464',
+    slug: 'crm-system-project-14',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 14',
+      en: 'CRM System for Project 14',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-465',
+    slug: 'crm-system-project-15',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 15',
+      en: 'CRM System for Project 15',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-466',
+    slug: 'crm-system-project-16',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 16',
+      en: 'CRM System for Project 16',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-467',
+    slug: 'crm-system-project-17',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 17',
+      en: 'CRM System for Project 17',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-468',
+    slug: 'crm-system-project-18',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 18',
+      en: 'CRM System for Project 18',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-469',
+    slug: 'crm-system-project-19',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 19',
+      en: 'CRM System for Project 19',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-470',
+    slug: 'crm-system-project-20',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 20',
+      en: 'CRM System for Project 20',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-471',
+    slug: 'crm-system-project-21',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 21',
+      en: 'CRM System for Project 21',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-472',
+    slug: 'crm-system-project-22',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 22',
+      en: 'CRM System for Project 22',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-473',
+    slug: 'crm-system-project-23',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 23',
+      en: 'CRM System for Project 23',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-474',
+    slug: 'crm-system-project-24',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 24',
+      en: 'CRM System for Project 24',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-475',
+    slug: 'crm-system-project-25',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 25',
+      en: 'CRM System for Project 25',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-476',
+    slug: 'crm-system-project-26',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 26',
+      en: 'CRM System for Project 26',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-477',
+    slug: 'crm-system-project-27',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 27',
+      en: 'CRM System for Project 27',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-478',
+    slug: 'crm-system-project-28',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 28',
+      en: 'CRM System for Project 28',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-479',
+    slug: 'crm-system-project-29',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 29',
+      en: 'CRM System for Project 29',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-480',
+    slug: 'crm-system-project-30',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 30',
+      en: 'CRM System for Project 30',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-481',
+    slug: 'crm-system-project-31',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 31',
+      en: 'CRM System for Project 31',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-482',
+    slug: 'crm-system-project-32',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 32',
+      en: 'CRM System for Project 32',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-483',
+    slug: 'crm-system-project-33',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 33',
+      en: 'CRM System for Project 33',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-484',
+    slug: 'crm-system-project-34',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 34',
+      en: 'CRM System for Project 34',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-485',
+    slug: 'crm-system-project-35',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 35',
+      en: 'CRM System for Project 35',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-486',
+    slug: 'crm-system-project-36',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 36',
+      en: 'CRM System for Project 36',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-487',
+    slug: 'crm-system-project-37',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 37',
+      en: 'CRM System for Project 37',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-488',
+    slug: 'crm-system-project-38',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 38',
+      en: 'CRM System for Project 38',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-489',
+    slug: 'crm-system-project-39',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 39',
+      en: 'CRM System for Project 39',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-490',
+    slug: 'crm-system-project-40',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 40',
+      en: 'CRM System for Project 40',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-491',
+    slug: 'crm-system-project-41',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 41',
+      en: 'CRM System for Project 41',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-492',
+    slug: 'crm-system-project-42',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 42',
+      en: 'CRM System for Project 42',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-493',
+    slug: 'crm-system-project-43',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 43',
+      en: 'CRM System for Project 43',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-494',
+    slug: 'crm-system-project-44',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 44',
+      en: 'CRM System for Project 44',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-495',
+    slug: 'crm-system-project-45',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 45',
+      en: 'CRM System for Project 45',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-496',
+    slug: 'crm-system-project-46',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 46',
+      en: 'CRM System for Project 46',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-497',
+    slug: 'crm-system-project-47',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 47',
+      en: 'CRM System for Project 47',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-498',
+    slug: 'crm-system-project-48',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 48',
+      en: 'CRM System for Project 48',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-499',
+    slug: 'crm-system-project-49',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 49',
+      en: 'CRM System for Project 49',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-500',
+    slug: 'crm-system-project-50',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 50',
+      en: 'CRM System for Project 50',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-501',
+    slug: 'invoicing-consulting-firm-baghdad',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لشركة استشارات في بغداد',
+      en: 'Invoicing System for Consulting Firm in Baghdad',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لإدارة فواتير الاستشارات',
+      en: 'Professional invoicing system for consulting services',
+    },
+    category: { ar: 'استشارات', en: 'Consulting' },
+  },
+  {
+    id: 'project-502',
+    slug: 'invoicing-software-company-erbil',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لشركة برمجيات في أربيل',
+      en: 'Invoicing System for Software Company in Erbil',
+    },
+    description: {
+      ar: 'نظام فوترة للخدمات البرمجية والاشتراكات',
+      en: 'Invoicing for software services and subscriptions',
+    },
+    category: { ar: 'برمجيات', en: 'Software' },
+  },
+  {
+    id: 'project-503',
+    slug: 'invoicing-graphic-design-studio-basra',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لاستديو تصميم في البصرة',
+      en: 'Invoicing System for Design Studio in Basra',
+    },
+    description: {
+      ar: 'نظام فوترة لخدمات التصميم الجرافيكي',
+      en: 'Invoicing system for graphic design services',
+    },
+    category: { ar: 'تصميم', en: 'Design' },
+  },
+  {
+    id: 'project-504',
+    slug: 'invoicing-engineering-office-baghdad',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمكتب هندسي في بغداد',
+      en: 'Invoicing System for Engineering Office in Baghdad',
+    },
+    description: {
+      ar: 'نظام فوترة للخدمات الهندسية والاستشارات',
+      en: 'Invoicing for engineering services and consulting',
+    },
+    category: { ar: 'هندسة', en: 'Engineering' },
+  },
+  {
+    id: 'project-505',
+    slug: 'invoicing-training-center-najaf',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمركز تدريب في النجف',
+      en: 'Invoicing System for Training Center in Najaf',
+    },
+    description: {
+      ar: 'نظام فوترة للدورات التدريبية والشهادات',
+      en: 'Invoicing for training courses and certificates',
+    },
+    category: { ar: 'تدريب', en: 'Training' },
+  },
+  {
+    id: 'project-506',
+    slug: 'invoicing-photography-studio-erbil',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لاستديو تصوير في أربيل',
+      en: 'Invoicing System for Photography Studio in Erbil',
+    },
+    description: {
+      ar: 'نظام فوترة لخدمات التصوير الفوتوغرافي',
+      en: 'Invoicing for photography services',
+    },
+    category: { ar: 'تصوير', en: 'Photography' },
+  },
+  {
+    id: 'project-507',
+    slug: 'invoicing-accounting-firm-baghdad',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمكتب محاسبة في بغداد',
+      en: 'Invoicing System for Accounting Firm in Baghdad',
+    },
+    description: {
+      ar: 'نظام فوترة للخدمات المحاسبية والمالية',
+      en: 'Invoicing for accounting and financial services',
+    },
+    category: { ar: 'محاسبة', en: 'Accounting' },
+  },
+  {
+    id: 'project-508',
+    slug: 'invoicing-translation-office-basra',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمكتب ترجمة في البصرة',
+      en: 'Invoicing System for Translation Office in Basra',
+    },
+    description: {
+      ar: 'نظام فوترة لخدمات الترجمة والتوثيق',
+      en: 'Invoicing for translation and notarization services',
+    },
+    category: { ar: 'ترجمة', en: 'Translation' },
+  },
+  {
+    id: 'project-509',
+    slug: 'invoicing-marketing-agency-baghdad',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لوكالة تسويق في بغداد',
+      en: 'Invoicing System for Marketing Agency in Baghdad',
+    },
+    description: {
+      ar: 'نظام فوترة للحملات التسويقية والإعلانية',
+      en: 'Invoicing for marketing and advertising campaigns',
+    },
+    category: { ar: 'تسويق', en: 'Marketing' },
+  },
+  {
+    id: 'project-510',
+    slug: 'invoicing-event-management-erbil',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لشركة تنظيم فعاليات في أربيل',
+      en: 'Invoicing System for Event Management in Erbil',
+    },
+    description: {
+      ar: 'نظام فوترة لخدمات تنظيم الفعاليات والمؤتمرات',
+      en: 'Invoicing for events and conferences management',
+    },
+    category: { ar: 'فعاليات', en: 'Events' },
+  },
+  {
+    id: 'project-511',
+    slug: 'invoicing-system-project-11',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 11',
+      en: 'Invoicing System for Project 11',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-512',
+    slug: 'invoicing-system-project-12',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 12',
+      en: 'Invoicing System for Project 12',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-513',
+    slug: 'invoicing-system-project-13',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 13',
+      en: 'Invoicing System for Project 13',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-514',
+    slug: 'invoicing-system-project-14',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 14',
+      en: 'Invoicing System for Project 14',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-515',
+    slug: 'invoicing-system-project-15',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 15',
+      en: 'Invoicing System for Project 15',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-516',
+    slug: 'invoicing-system-project-16',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 16',
+      en: 'Invoicing System for Project 16',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-517',
+    slug: 'invoicing-system-project-17',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 17',
+      en: 'Invoicing System for Project 17',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-518',
+    slug: 'invoicing-system-project-18',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 18',
+      en: 'Invoicing System for Project 18',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-519',
+    slug: 'invoicing-system-project-19',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 19',
+      en: 'Invoicing System for Project 19',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-520',
+    slug: 'invoicing-system-project-20',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 20',
+      en: 'Invoicing System for Project 20',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-521',
+    slug: 'invoicing-system-project-21',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 21',
+      en: 'Invoicing System for Project 21',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-522',
+    slug: 'invoicing-system-project-22',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 22',
+      en: 'Invoicing System for Project 22',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-523',
+    slug: 'invoicing-system-project-23',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 23',
+      en: 'Invoicing System for Project 23',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-524',
+    slug: 'invoicing-system-project-24',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 24',
+      en: 'Invoicing System for Project 24',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-525',
+    slug: 'invoicing-system-project-25',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 25',
+      en: 'Invoicing System for Project 25',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-526',
+    slug: 'invoicing-system-project-26',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 26',
+      en: 'Invoicing System for Project 26',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-527',
+    slug: 'invoicing-system-project-27',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 27',
+      en: 'Invoicing System for Project 27',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-528',
+    slug: 'invoicing-system-project-28',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 28',
+      en: 'Invoicing System for Project 28',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-529',
+    slug: 'invoicing-system-project-29',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 29',
+      en: 'Invoicing System for Project 29',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-530',
+    slug: 'invoicing-system-project-30',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 30',
+      en: 'Invoicing System for Project 30',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-531',
+    slug: 'invoicing-system-project-31',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 31',
+      en: 'Invoicing System for Project 31',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-532',
+    slug: 'invoicing-system-project-32',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 32',
+      en: 'Invoicing System for Project 32',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-533',
+    slug: 'invoicing-system-project-33',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 33',
+      en: 'Invoicing System for Project 33',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-534',
+    slug: 'invoicing-system-project-34',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 34',
+      en: 'Invoicing System for Project 34',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-535',
+    slug: 'invoicing-system-project-35',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 35',
+      en: 'Invoicing System for Project 35',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-536',
+    slug: 'invoicing-system-project-36',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 36',
+      en: 'Invoicing System for Project 36',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-537',
+    slug: 'invoicing-system-project-37',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 37',
+      en: 'Invoicing System for Project 37',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-538',
+    slug: 'invoicing-system-project-38',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 38',
+      en: 'Invoicing System for Project 38',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-539',
+    slug: 'invoicing-system-project-39',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 39',
+      en: 'Invoicing System for Project 39',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-540',
+    slug: 'invoicing-system-project-40',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 40',
+      en: 'Invoicing System for Project 40',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-541',
+    slug: 'invoicing-system-project-41',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 41',
+      en: 'Invoicing System for Project 41',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-542',
+    slug: 'invoicing-system-project-42',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 42',
+      en: 'Invoicing System for Project 42',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-543',
+    slug: 'invoicing-system-project-43',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 43',
+      en: 'Invoicing System for Project 43',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-544',
+    slug: 'invoicing-system-project-44',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 44',
+      en: 'Invoicing System for Project 44',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-545',
+    slug: 'invoicing-system-project-45',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 45',
+      en: 'Invoicing System for Project 45',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-546',
+    slug: 'invoicing-system-project-46',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 46',
+      en: 'Invoicing System for Project 46',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-547',
+    slug: 'invoicing-system-project-47',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 47',
+      en: 'Invoicing System for Project 47',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-548',
+    slug: 'invoicing-system-project-48',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 48',
+      en: 'Invoicing System for Project 48',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-549',
+    slug: 'invoicing-system-project-49',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 49',
+      en: 'Invoicing System for Project 49',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-550',
+    slug: 'invoicing-system-project-50',
+    serviceKey: 'invoicing-system',
+    title: {
+      ar: 'نظام فواتير لمشروع رقم 50',
+      en: 'Invoicing System for Project 50',
+    },
+    description: {
+      ar: 'نظام فوترة احترافي لعميل في العراق',
+      en: 'Professional invoicing system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-551',
+    slug: 'pos-restaurant-baghdad',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمطعم في بغداد',
+      en: 'POS System for Restaurant in Baghdad',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لإدارة الطلبات والمدفوعات',
+      en: 'Complete POS system for orders and payments management',
+    },
+    category: { ar: 'مطاعم', en: 'Restaurant' },
+  },
+  {
+    id: 'project-552',
+    slug: 'pos-supermarket-basra',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لسوبرماركت في البصرة',
+      en: 'POS System for Supermarket in Basra',
+    },
+    description: {
+      ar: 'نظام كاشير ومخزون لإدارة السوبرماركت',
+      en: 'Cashier and inventory system for supermarket',
+    },
+    category: { ar: 'سوبرماركت', en: 'Supermarket' },
+  },
+  {
+    id: 'project-553',
+    slug: 'pos-pharmacy-erbil',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لصيدلية في أربيل',
+      en: 'POS System for Pharmacy in Erbil',
+    },
+    description: {
+      ar: 'نظام نقاط بيع للأدوية مع إدارة الصلاحيات',
+      en: 'POS system for medicines with expiry management',
+    },
+    category: { ar: 'صيدلية', en: 'Pharmacy' },
+  },
+  {
+    id: 'project-554',
+    slug: 'pos-clothing-store-baghdad',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمحل ملابس في بغداد',
+      en: 'POS System for Clothing Store in Baghdad',
+    },
+    description: {
+      ar: 'نظام كاشير مع إدارة المقاسات والألوان',
+      en: 'Cashier system with sizes and colors management',
+    },
+    category: { ar: 'ملابس', en: 'Clothing' },
+  },
+  {
+    id: 'project-555',
+    slug: 'pos-electronics-shop-najaf',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمحل إلكترونيات في النجف',
+      en: 'POS System for Electronics Shop in Najaf',
+    },
+    description: {
+      ar: 'نظام نقاط بيع مع إدارة الضمانات والصيانة',
+      en: 'POS system with warranty and maintenance management',
+    },
+    category: { ar: 'إلكترونيات', en: 'Electronics' },
+  },
+  {
+    id: 'project-556',
+    slug: 'pos-cafe-erbil',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لكافيه في أربيل',
+      en: 'POS System for Cafe in Erbil',
+    },
+    description: {
+      ar: 'نظام كاشير للمقاهي مع إدارة الطاولات',
+      en: 'Cafe cashier system with table management',
+    },
+    category: { ar: 'مقاهي', en: 'Cafe' },
+  },
+  {
+    id: 'project-557',
+    slug: 'pos-bakery-basra',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمخبز في البصرة',
+      en: 'POS System for Bakery in Basra',
+    },
+    description: {
+      ar: 'نظام نقاط بيع للمخابز مع إدارة الإنتاج اليومي',
+      en: 'Bakery POS with daily production management',
+    },
+    category: { ar: 'مخابز', en: 'Bakery' },
+  },
+  {
+    id: 'project-558',
+    slug: 'pos-jewelry-store-baghdad',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمحل مجوهرات في بغداد',
+      en: 'POS System for Jewelry Store in Baghdad',
+    },
+    description: {
+      ar: 'نظام كاشير للمجوهرات مع إدارة الأوزان والعيارات',
+      en: 'Jewelry POS with weight and purity management',
+    },
+    category: { ar: 'مجوهرات', en: 'Jewelry' },
+  },
+  {
+    id: 'project-559',
+    slug: 'pos-bookstore-mosul',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمكتبة في الموصل',
+      en: 'POS System for Bookstore in Mosul',
+    },
+    description: {
+      ar: 'نظام نقاط بيع للكتب والقرطاسية',
+      en: 'POS system for books and stationery',
+    },
+    category: { ar: 'مكتبة', en: 'Bookstore' },
+  },
+  {
+    id: 'project-560',
+    slug: 'pos-gas-station-kirkuk',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمحطة وقود في كركوك',
+      en: 'POS System for Gas Station in Kirkuk',
+    },
+    description: {
+      ar: 'نظام كاشير لمحطات الوقود مع إدارة المضخات',
+      en: 'Gas station POS with pump management',
+    },
+    category: { ar: 'وقود', en: 'Fuel' },
+  },
+  {
+    id: 'project-561',
+    slug: 'pos-system-project-11',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 11',
+      en: 'POS System for Project 11',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-562',
+    slug: 'pos-system-project-12',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 12',
+      en: 'POS System for Project 12',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-563',
+    slug: 'pos-system-project-13',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 13',
+      en: 'POS System for Project 13',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-564',
+    slug: 'pos-system-project-14',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 14',
+      en: 'POS System for Project 14',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-565',
+    slug: 'pos-system-project-15',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 15',
+      en: 'POS System for Project 15',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-566',
+    slug: 'pos-system-project-16',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 16',
+      en: 'POS System for Project 16',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-567',
+    slug: 'pos-system-project-17',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 17',
+      en: 'POS System for Project 17',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-568',
+    slug: 'pos-system-project-18',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 18',
+      en: 'POS System for Project 18',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-569',
+    slug: 'pos-system-project-19',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 19',
+      en: 'POS System for Project 19',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-570',
+    slug: 'pos-system-project-20',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 20',
+      en: 'POS System for Project 20',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-571',
+    slug: 'pos-system-project-21',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 21',
+      en: 'POS System for Project 21',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-572',
+    slug: 'pos-system-project-22',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 22',
+      en: 'POS System for Project 22',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-573',
+    slug: 'pos-system-project-23',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 23',
+      en: 'POS System for Project 23',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-574',
+    slug: 'pos-system-project-24',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 24',
+      en: 'POS System for Project 24',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-575',
+    slug: 'pos-system-project-25',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 25',
+      en: 'POS System for Project 25',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-576',
+    slug: 'pos-system-project-26',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 26',
+      en: 'POS System for Project 26',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-577',
+    slug: 'pos-system-project-27',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 27',
+      en: 'POS System for Project 27',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-578',
+    slug: 'pos-system-project-28',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 28',
+      en: 'POS System for Project 28',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-579',
+    slug: 'pos-system-project-29',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 29',
+      en: 'POS System for Project 29',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-580',
+    slug: 'pos-system-project-30',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 30',
+      en: 'POS System for Project 30',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-581',
+    slug: 'pos-system-project-31',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 31',
+      en: 'POS System for Project 31',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-582',
+    slug: 'pos-system-project-32',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 32',
+      en: 'POS System for Project 32',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-583',
+    slug: 'pos-system-project-33',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 33',
+      en: 'POS System for Project 33',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-584',
+    slug: 'pos-system-project-34',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 34',
+      en: 'POS System for Project 34',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-585',
+    slug: 'pos-system-project-35',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 35',
+      en: 'POS System for Project 35',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-586',
+    slug: 'pos-system-project-36',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 36',
+      en: 'POS System for Project 36',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-587',
+    slug: 'pos-system-project-37',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 37',
+      en: 'POS System for Project 37',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-588',
+    slug: 'pos-system-project-38',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 38',
+      en: 'POS System for Project 38',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-589',
+    slug: 'pos-system-project-39',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 39',
+      en: 'POS System for Project 39',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-590',
+    slug: 'pos-system-project-40',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 40',
+      en: 'POS System for Project 40',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-591',
+    slug: 'pos-system-project-41',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 41',
+      en: 'POS System for Project 41',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-592',
+    slug: 'pos-system-project-42',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 42',
+      en: 'POS System for Project 42',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-593',
+    slug: 'pos-system-project-43',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 43',
+      en: 'POS System for Project 43',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-594',
+    slug: 'pos-system-project-44',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 44',
+      en: 'POS System for Project 44',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-595',
+    slug: 'pos-system-project-45',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 45',
+      en: 'POS System for Project 45',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-596',
+    slug: 'pos-system-project-46',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 46',
+      en: 'POS System for Project 46',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-597',
+    slug: 'pos-system-project-47',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 47',
+      en: 'POS System for Project 47',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-598',
+    slug: 'pos-system-project-48',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 48',
+      en: 'POS System for Project 48',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-599',
+    slug: 'pos-system-project-49',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 49',
+      en: 'POS System for Project 49',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },
+  {
+    id: 'project-600',
+    slug: 'pos-system-project-50',
+    serviceKey: 'pos-system',
+    title: {
+      ar: 'نظام POS لمشروع رقم 50',
+      en: 'POS System for Project 50',
+    },
+    description: {
+      ar: 'نظام نقاط بيع متكامل لعميل في العراق',
+      en: 'Complete POS system for Iraqi client',
+    },
+    category: { ar: 'تجزئة', en: 'Retail' },
+  },

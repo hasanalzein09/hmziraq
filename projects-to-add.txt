@@ -1,0 +1,501 @@
+    id: 'project-451',
+    slug: 'crm-real-estate-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لشركة عقارات في بغداد',
+      en: 'CRM System for Real Estate Company in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء لتتبع العقارات والعملاء المحتملين',
+      en: 'CRM system for tracking properties and potential customers',
+    },
+    category: { ar: 'عقارات', en: 'Real Estate' },
+  },
+  {
+    id: 'project-452',
+    slug: 'crm-car-dealership-basra',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمعرض سيارات في البصرة',
+      en: 'CRM System for Car Dealership in Basra',
+    },
+    description: {
+      ar: 'نظام إدارة المبيعات والعملاء لمعرض السيارات',
+      en: 'Sales and customer management system for car showroom',
+    },
+    category: { ar: 'سيارات', en: 'Automotive' },
+  },
+  {
+    id: 'project-453',
+    slug: 'crm-insurance-company-erbil',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لشركة تأمين في أربيل',
+      en: 'CRM System for Insurance Company in Erbil',
+    },
+    description: {
+      ar: 'نظام إدارة العملاء والوثائق والمطالبات',
+      en: 'Customer, policy, and claims management system',
+    },
+    category: { ar: 'تأمين', en: 'Insurance' },
+  },
+  {
+    id: 'project-454',
+    slug: 'crm-telecom-provider-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمزود اتصالات في بغداد',
+      en: 'CRM System for Telecom Provider in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة المشتركين والشكاوى والفواتير',
+      en: 'Subscriber, complaints, and billing management',
+    },
+    category: { ar: 'اتصالات', en: 'Telecom' },
+  },
+  {
+    id: 'project-455',
+    slug: 'crm-gym-chain-najaf',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لسلسلة نوادي رياضية في النجف',
+      en: 'CRM System for Gym Chain in Najaf',
+    },
+    description: {
+      ar: 'نظام إدارة الأعضاء والاشتراكات والتسويق',
+      en: 'Members, subscriptions, and marketing management',
+    },
+    category: { ar: 'رياضة', en: 'Fitness' },
+  },
+  {
+    id: 'project-456',
+    slug: 'crm-travel-agency-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لوكالة سفر في بغداد',
+      en: 'CRM System for Travel Agency in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة الحجوزات والعملاء والعروض السياحية',
+      en: 'Bookings, customers, and travel packages management',
+    },
+    category: { ar: 'سياحة', en: 'Travel' },
+  },
+  {
+    id: 'project-457',
+    slug: 'crm-medical-clinic-basra',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لعيادة طبية في البصرة',
+      en: 'CRM System for Medical Clinic in Basra',
+    },
+    description: {
+      ar: 'نظام إدارة المرضى والمواعيد والمتابعات',
+      en: 'Patients, appointments, and follow-ups management',
+    },
+    category: { ar: 'طب', en: 'Medical' },
+  },
+  {
+    id: 'project-458',
+    slug: 'crm-law-firm-erbil',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمكتب محاماة في أربيل',
+      en: 'CRM System for Law Firm in Erbil',
+    },
+    description: {
+      ar: 'نظام إدارة القضايا والعملاء والاستشارات',
+      en: 'Cases, clients, and consultations management',
+    },
+    category: { ar: 'قانون', en: 'Legal' },
+  },
+  {
+    id: 'project-459',
+    slug: 'crm-beauty-salon-chain-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لسلسلة صالونات تجميل في بغداد',
+      en: 'CRM System for Beauty Salon Chain in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة الحجوزات والعملاء وبرامج الولاء',
+      en: 'Bookings, customers, and loyalty programs management',
+    },
+    category: { ar: 'تجميل', en: 'Beauty' },
+  },
+  {
+    id: 'project-460',
+    slug: 'crm-advertising-agency-baghdad',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لوكالة إعلانات في بغداد',
+      en: 'CRM System for Advertising Agency in Baghdad',
+    },
+    description: {
+      ar: 'نظام إدارة العملاء والحملات الإعلانية',
+      en: 'Clients and advertising campaigns management',
+    },
+    category: { ar: 'إعلان', en: 'Advertising' },
+  },
+  {
+    id: 'project-461',
+    slug: 'crm-system-project-11',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 11',
+      en: 'CRM System for Project 11',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-462',
+    slug: 'crm-system-project-12',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 12',
+      en: 'CRM System for Project 12',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-463',
+    slug: 'crm-system-project-13',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 13',
+      en: 'CRM System for Project 13',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-464',
+    slug: 'crm-system-project-14',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 14',
+      en: 'CRM System for Project 14',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-465',
+    slug: 'crm-system-project-15',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 15',
+      en: 'CRM System for Project 15',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-466',
+    slug: 'crm-system-project-16',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 16',
+      en: 'CRM System for Project 16',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-467',
+    slug: 'crm-system-project-17',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 17',
+      en: 'CRM System for Project 17',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-468',
+    slug: 'crm-system-project-18',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 18',
+      en: 'CRM System for Project 18',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-469',
+    slug: 'crm-system-project-19',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 19',
+      en: 'CRM System for Project 19',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-470',
+    slug: 'crm-system-project-20',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 20',
+      en: 'CRM System for Project 20',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-471',
+    slug: 'crm-system-project-21',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 21',
+      en: 'CRM System for Project 21',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-472',
+    slug: 'crm-system-project-22',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 22',
+      en: 'CRM System for Project 22',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-473',
+    slug: 'crm-system-project-23',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 23',
+      en: 'CRM System for Project 23',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-474',
+    slug: 'crm-system-project-24',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 24',
+      en: 'CRM System for Project 24',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-475',
+    slug: 'crm-system-project-25',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 25',
+      en: 'CRM System for Project 25',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-476',
+    slug: 'crm-system-project-26',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 26',
+      en: 'CRM System for Project 26',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-477',
+    slug: 'crm-system-project-27',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 27',
+      en: 'CRM System for Project 27',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-478',
+    slug: 'crm-system-project-28',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 28',
+      en: 'CRM System for Project 28',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-479',
+    slug: 'crm-system-project-29',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 29',
+      en: 'CRM System for Project 29',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-480',
+    slug: 'crm-system-project-30',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 30',
+      en: 'CRM System for Project 30',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-481',
+    slug: 'crm-system-project-31',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 31',
+      en: 'CRM System for Project 31',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-482',
+    slug: 'crm-system-project-32',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 32',
+      en: 'CRM System for Project 32',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-483',
+    slug: 'crm-system-project-33',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 33',
+      en: 'CRM System for Project 33',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-484',
+    slug: 'crm-system-project-34',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 34',
+      en: 'CRM System for Project 34',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-485',
+    slug: 'crm-system-project-35',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 35',
+      en: 'CRM System for Project 35',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
+    category: { ar: 'أعمال', en: 'Business' },
+  },
+  {
+    id: 'project-486',
+    slug: 'crm-system-project-36',
+    serviceKey: 'crm-system',
+    title: {
+      ar: 'نظام CRM لمشروع رقم 36',
+      en: 'CRM System for Project 36',
+    },
+    description: {
+      ar: 'نظام إدارة علاقات العملاء متكامل لعميل في العراق',
+      en: 'Complete CRM system for Iraqi client',
+    },
