@@ -5,7 +5,10 @@ import { SERVICES } from '@/content/services';
 import { BUSINESS_TYPES } from '@/content/businessTypes';
 import { getCityByKey } from '@/content/iraqCities';
 import { pricingPackages } from '@/content/pricingPackages';
+import { getCityInsights } from '@/content/cityInsights';
+import { getServiceDeepContent } from '@/content/serviceDeepContent';
 import ContactForm from '@/components/ContactForm';
+import { getServiceFAQs } from '@/content/serviceFAQs';
 
 // Types
 type Props = {
@@ -227,6 +230,96 @@ export default async function ProgrammaticServicePage({ params }: Props) {
           </div>
         </section>
 
+        {/* City Market Insights Section */}
+        <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-blue-900">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+              {lang === 'ar' ? `📊 سوق ${cityName} الرقمي` : `📊 ${cityName} Digital Market`}
+            </h2>
+            <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+              {lang === 'ar' 
+                ? `فرص نمو استثنائية لقطاع ${businessName} في ${cityName}` 
+                : `Exceptional growth opportunities for ${businessName} sector in ${cityName}`}
+            </p>
+            
+            {(() => {
+              const insights = getCityInsights(cityKey, lang);
+              if (!insights) return null;
+              
+              return (
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                  {/* Market Size */}
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-t-4 border-blue-500">
+                    <div className="text-3xl mb-3">💼</div>
+                    <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">
+                      {lang === 'ar' ? 'حجم السوق' : 'Market Size'}
+                    </h3>
+                    <p className="text-2xl font-bold text-blue-600 mb-2">{insights.marketSize}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      {lang === 'ar' ? 'فرصة نمو كبيرة' : 'Major growth opportunity'}
+                    </p>
+                  </div>
+
+                  {/* Business Opportunity */}
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <div className="text-3xl mb-3">🎯</div>
+                    <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">
+                      {lang === 'ar' ? 'فرصة الأعمال' : 'Business Opportunity'}
+                    </h3>
+                    <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                      {insights.businessOpportunity}
+                    </p>
+                  </div>
+
+                  {/* Competition Level */}
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-t-4 border-yellow-500">
+                    <div className="text-3xl mb-3">📈</div>
+                    <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">
+                      {lang === 'ar' ? 'مستوى المنافسة' : 'Competition Level'}
+                    </h3>
+                    <p className="text-2xl font-bold text-yellow-600 mb-2">{insights.competitionLevel}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      {lang === 'ar' ? 'وقت مثالي للدخول' : 'Perfect time to enter'}
+                    </p>
+                  </div>
+
+                  {/* Average ROI */}
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-t-4 border-purple-500">
+                    <div className="text-3xl mb-3">💰</div>
+                    <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">
+                      {lang === 'ar' ? 'متوسط العائد' : 'Average ROI'}
+                    </h3>
+                    <p className="text-2xl font-bold text-purple-600 mb-2">{insights.averageROI}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      {lang === 'ar' ? 'خلال 6 أشهر' : 'Within 6 months'}
+                    </p>
+                  </div>
+                </div>
+              );
+            })()}
+
+            {/* Local Trends */}
+            {(() => {
+              const insights = getCityInsights(cityKey, lang);
+              if (!insights) return null;
+              
+              return (
+                <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white flex items-center gap-2">
+                    <span>🔥</span>
+                    {lang === 'ar' ? 'الاتجاهات المحلية' : 'Local Trends'}
+                  </h3>
+                  <div className="p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 rounded-lg">
+                    <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                      {insights.localTrends}
+                    </p>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+        </section>
+
         {/* Why Choose Us Section */}
         <section className="py-16 bg-white dark:bg-gray-800">
           <div className="container mx-auto px-4">
@@ -442,9 +535,250 @@ export default async function ProgrammaticServicePage({ params }: Props) {
           </div>
         </section>
 
+        {/* Service Benefits Section */}
+        {(() => {
+          const deepContent = getServiceDeepContent(serviceKey, lang);
+          if (!deepContent || !deepContent.benefits) return null;
+          
+          return (
+            <section className="py-16 bg-white dark:bg-gray-800">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+                  {lang === 'ar' ? `✨ فوائد ${serviceName} لـ${businessName}` : `✨ ${serviceName} Benefits for ${businessName}`}
+                </h2>
+                <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                  {lang === 'ar' 
+                    ? `كيف يمكن لهذه الخدمة أن تحول عملك في ${cityName}` 
+                    : `How this service can transform your business in ${cityName}`}
+                </p>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                  {deepContent.benefits.slice(0, 8).map((benefit: any, idx: number) => (
+                    <div key={idx} className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
+                      <div className="text-4xl mb-4">{benefit.icon}</div>
+                      <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                        {benefit.title}
+                      </h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                        {benefit.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* Service Features Section */}
+        {(() => {
+          const deepContent = getServiceDeepContent(serviceKey, lang);
+          if (!deepContent || !deepContent.features) return null;
+          
+          return (
+            <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+                  {lang === 'ar' ? `🚀 مميزات ${serviceName}` : `🚀 ${serviceName} Features`}
+                </h2>
+                <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                  {lang === 'ar' 
+                    ? `تقنيات متقدمة مصممة خصيصاً لاحتياجات ${businessName}` 
+                    : `Advanced technologies designed specifically for ${businessName} needs`}
+                </p>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                  {deepContent.features.slice(0, 8).map((feature: any, idx: number) => (
+                    <div key={idx} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all">
+                      <div className="text-4xl mb-4">{feature.icon}</div>
+                      <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                        {feature.title}
+                      </h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* Use Cases Section */}
+        {(() => {
+          const deepContent = getServiceDeepContent(serviceKey, lang);
+          if (!deepContent || !deepContent.useCases) return null;
+          
+          return (
+            <section className="py-16 bg-white dark:bg-gray-800">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+                  {lang === 'ar' ? `💡 سيناريوهات الاستخدام` : `💡 Use Cases`}
+                </h2>
+                <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                  {lang === 'ar' 
+                    ? `كيف يستخدم ${businessName} في ${cityName} هذه الخدمة` 
+                    : `How ${businessName} in ${cityName} use this service`}
+                </p>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                  {deepContent.useCases.slice(0, 8).map((useCase: any, idx: number) => (
+                    <div key={idx} className="bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-700 dark:to-gray-800 p-6 rounded-xl shadow-lg">
+                      <div className="text-4xl mb-4">{useCase.icon}</div>
+                      <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                        {useCase.title}
+                      </h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                        {useCase.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* ROI Metrics Section */}
+        {(() => {
+          const deepContent = getServiceDeepContent(serviceKey, lang);
+          if (!deepContent || !deepContent.roi) return null;
+          
+          const roiData = deepContent.roi as any;
+          const roiMetrics = [
+            { key: 'timeSaved', icon: '⏱️', label: lang === 'ar' ? 'توفير الوقت' : 'Time Saved', color: 'blue' },
+            { key: 'costReduction', icon: '💰', label: lang === 'ar' ? 'تقليل التكاليف' : 'Cost Reduction', color: 'green' },
+            { key: 'salesIncrease', icon: '📈', label: lang === 'ar' ? 'زيادة المبيعات' : 'Sales Increase', color: 'purple' },
+            { key: 'visibilityIncrease', icon: '👁️', label: lang === 'ar' ? 'زيادة الظهور' : 'Visibility', color: 'indigo' },
+            { key: 'leadGeneration', icon: '🎯', label: lang === 'ar' ? 'جذب العملاء' : 'Lead Generation', color: 'pink' },
+            { key: 'credibilityBoost', icon: '⭐', label: lang === 'ar' ? 'المصداقية' : 'Credibility', color: 'yellow' },
+            { key: 'customerSatisfaction', icon: '😊', label: lang === 'ar' ? 'رضا العملاء' : 'Satisfaction', color: 'orange' },
+            { key: 'competitiveAdvantage', icon: '🏆', label: lang === 'ar' ? 'الميزة التنافسية' : 'Advantage', color: 'teal' },
+            { key: 'userEngagement', icon: '📱', label: lang === 'ar' ? 'التفاعل' : 'Engagement', color: 'cyan' },
+            { key: 'retentionRate', icon: '🔄', label: lang === 'ar' ? 'الاحتفاظ' : 'Retention', color: 'lime' },
+            { key: 'breakEvenTime', icon: '⚡', label: lang === 'ar' ? 'استرداد التكلفة' : 'Break Even', color: 'red' },
+          ];
+          
+          const availableMetrics = roiMetrics.filter(metric => roiData[metric.key]);
+          if (availableMetrics.length === 0) return null;
+          
+          return (
+            <section className="py-16 bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-900 dark:to-purple-900">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+                  {lang === 'ar' ? `📊 عائد الاستثمار المتوقع` : `📊 Expected ROI`}
+                </h2>
+                <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                  {lang === 'ar' 
+                    ? `نتائج حقيقية وقابلة للقياس لـ${businessName} في ${cityName}` 
+                    : `Real and measurable results for ${businessName} in ${cityName}`}
+                </p>
+                
+                <div className={`grid md:grid-cols-${Math.min(availableMetrics.length, 5)} gap-6 max-w-6xl mx-auto`}>
+                  {availableMetrics.map((metric, idx) => (
+                    <div key={idx} className={`bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg text-center border-t-4 border-${metric.color}-500`}>
+                      <div className="text-5xl mb-4">{metric.icon}</div>
+                      <div className={`text-4xl font-bold text-${metric.color}-600 mb-2`}>{roiData[metric.key]}</div>
+                      <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wide">
+                        {metric.label}
+                      </h3>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* Success Stories from City */}
+        {(() => {
+          const insights = getCityInsights(cityKey, lang);
+          if (!insights || !insights.successStories) return null;
+          
+          return (
+            <section className="py-16 bg-white dark:bg-gray-800">
+              <div className="container mx-auto px-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+                  {lang === 'ar' ? `🏆 قصص نجاح من ${cityName}` : `🏆 Success Stories from ${cityName}`}
+                </h2>
+                <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+                  {lang === 'ar' 
+                    ? `شركات محلية حققت نتائج استثنائية معنا` 
+                    : `Local businesses that achieved exceptional results with us`}
+                </p>
+                
+                <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                  {insights.successStories.map((story: string, idx: number) => (
+                    <div key={idx} className="bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-gray-700 dark:to-gray-800 p-8 rounded-xl shadow-lg">
+                      <div className="text-5xl mb-4">✨</div>
+                      <p className="text-lg text-gray-800 dark:text-gray-200 leading-relaxed font-medium">
+                        {story}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* FAQs Section */}
+        <section className="py-16 bg-white dark:bg-gray-800">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+              {lang === 'ar' ? `❓ أسئلة شائعة حول ${serviceName}` : `❓ FAQs about ${serviceName}`}
+            </h2>
+            <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
+              {lang === 'ar' 
+                ? `إجابات على أكثر الأسئلة شيوعاً من عملائنا في ${cityName}` 
+                : `Answers to most common questions from our clients in ${cityName}`}
+            </p>
+            
+            <div className="max-w-4xl mx-auto space-y-4">
+              {getServiceFAQs(serviceKey, lang).map((faq: any, idx: number) => (
+                <details 
+                  key={idx} 
+                  className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 p-6 rounded-xl shadow-lg group"
+                >
+                  <summary className="font-bold text-lg text-gray-900 dark:text-white cursor-pointer flex items-center justify-between">
+                    <span className="flex items-center gap-3">
+                      <span className="text-2xl">💡</span>
+                      {faq.question}
+                    </span>
+                    <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
+                  </summary>
+                  <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed pl-11">
+                    {faq.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+
+            {/* Schema Markup for FAQs */}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  '@context': 'https://schema.org',
+                  '@type': 'FAQPage',
+                  mainEntity: getServiceFAQs(serviceKey, lang).map((faq: any) => ({
+                    '@type': 'Question',
+                    name: faq.question,
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: faq.answer
+                    }
+                  }))
+                })
+              }}
+            />
+          </div>
+        </section>
+
         {/* Pricing Section */}
         {pricing && (
-          <section className="py-16 bg-white dark:bg-gray-800">
+          <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
                 {lang === 'ar' ? 'باقات الأسعار' : 'Pricing Packages'}
