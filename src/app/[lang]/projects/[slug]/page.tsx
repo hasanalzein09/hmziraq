@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const serviceName = service?.name[lang] || '';
 
   return {
-    title: `${title} | ${serviceName} | HMZ Iraq`,
+    title: `${title} | ${serviceName} | hmziraq.tech`,
     description: description,
     keywords: [
       title,
@@ -88,13 +88,13 @@ export default async function ProjectPage({ params }: Props) {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            '@id': `https://www.hmziraq.services/${lang}/projects/${slug}#webpage`,
-            url: `https://www.hmziraq.services/${lang}/projects/${slug}`,
+            '@id': `https://www.hmziraq.tech/${lang}/projects/${slug}#webpage`,
+            url: `https://www.hmziraq.tech/${lang}/projects/${slug}`,
             name: project.title[lang],
             description: project.description[lang],
             inLanguage: lang === 'ar' ? 'ar-IQ' : 'en-US',
             isPartOf: {
-              '@id': 'https://www.hmziraq.services/#website'
+              '@id': 'https://www.hmziraq.tech/#website'
             },
             breadcrumb: {
               '@type': 'BreadcrumbList',
@@ -103,39 +103,39 @@ export default async function ProjectPage({ params }: Props) {
                   '@type': 'ListItem',
                   position: 1,
                   name: lang === 'ar' ? 'الرئيسية' : 'Home',
-                  item: `https://www.hmziraq.services/${lang}`
+                  item: `https://www.hmziraq.tech/${lang}`
                 },
                 {
                   '@type': 'ListItem',
                   position: 2,
                   name: lang === 'ar' ? 'المشاريع' : 'Projects',
-                  item: `https://www.hmziraq.services/${lang}/projects`
+                  item: `https://www.hmziraq.tech/${lang}/projects`
                 },
                 {
                   '@type': 'ListItem',
                   position: 3,
                   name: project.title[lang],
-                  item: `https://www.hmziraq.services/${lang}/projects/${slug}`
+                  item: `https://www.hmziraq.tech/${lang}/projects/${slug}`
                 }
               ]
             },
             mainEntity: {
               '@type': 'CreativeWork',
-              '@id': `https://www.hmziraq.services/${lang}/projects/${slug}#project`,
+              '@id': `https://www.hmziraq.tech/${lang}/projects/${slug}#project`,
               name: project.title[lang],
               description: project.description[lang],
               creator: {
                 '@type': 'Organization',
-                '@id': 'https://www.hmziraq.services/#organization',
-                name: 'HMZ Iraq',
-                url: 'https://www.hmziraq.services',
+                '@id': 'https://www.hmziraq.tech/#organization',
+                name: 'hmziraq.tech',
+                url: 'https://www.hmziraq.tech',
               },
               about: {
                 '@type': 'Service',
                 name: service?.name[lang],
                 description: service?.description[lang],
                 provider: {
-                  '@id': 'https://www.hmziraq.services/#organization'
+                  '@id': 'https://www.hmziraq.tech/#organization'
                 }
               },
               keywords: service?.keywords.join(', '),

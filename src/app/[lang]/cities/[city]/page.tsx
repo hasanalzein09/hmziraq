@@ -36,8 +36,8 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   }
 
   const title = lang === 'ar'
-    ? `خدمات تطوير المواقع والتطبيقات في ${city.ar} | HMZ Iraq`
-    : `Web & App Development Services in ${city.en} | HMZ Iraq`;
+    ? `خدمات تطوير المواقع والتطبيقات في ${city.ar} | hmziraq.tech`
+    : `Web & App Development Services in ${city.en} | hmziraq.tech`;
     
   const description = lang === 'ar'
     ? `أفضل شركة تطوير مواقع وتطبيقات في ${city.ar}، العراق. نقدم خدمات واتساب بوت، متاجر إلكترونية، تطبيقات جوال، وحلول رقمية متكاملة.`
@@ -53,16 +53,16 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       lang === 'ar' ? 'متجر إلكتروني' : 'e-commerce',
     ],
     alternates: {
-      canonical: `https://www.hmziraq.services/${lang}/cities/${cityKey}`,
+      canonical: `https://www.hmziraq.tech/${lang}/cities/${cityKey}`,
       languages: {
-        ar: `https://www.hmziraq.services/ar/cities/${cityKey}`,
-        en: `https://www.hmziraq.services/en/cities/${cityKey}`,
+        ar: `https://www.hmziraq.tech/ar/cities/${cityKey}`,
+        en: `https://www.hmziraq.tech/en/cities/${cityKey}`,
       },
     },
     openGraph: {
       title,
       description,
-      url: `https://www.hmziraq.services/${lang}/cities/${cityKey}`,
+      url: `https://www.hmziraq.tech/${lang}/cities/${cityKey}`,
       locale: lang === 'ar' ? 'ar_IQ' : 'en_US',
       type: 'website',
     },
@@ -84,9 +84,9 @@ export default async function CityPage({ params }: CityPageProps) {
   ).slice(0, 6);
 
   const breadcrumbItems = [
-    { name: lang === 'ar' ? 'الرئيسية' : 'Home', url: `https://www.hmziraq.services/${lang}` },
-    { name: lang === 'ar' ? 'المدن' : 'Cities', url: `https://www.hmziraq.services/${lang}/cities` },
-    { name: city[lang === 'ar' ? 'ar' : 'en'], url: `https://www.hmziraq.services/${lang}/cities/${cityKey}` },
+    { name: lang === 'ar' ? 'الرئيسية' : 'Home', url: `https://www.hmziraq.tech/${lang}` },
+    { name: lang === 'ar' ? 'المدن' : 'Cities', url: `https://www.hmziraq.tech/${lang}/cities` },
+    { name: city[lang === 'ar' ? 'ar' : 'en'], url: `https://www.hmziraq.tech/${lang}/cities/${cityKey}` },
   ];
 
   return (

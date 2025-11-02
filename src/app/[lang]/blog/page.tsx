@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
   const { lang } = await params;
   if (!SUPPORTED_LANGUAGES.includes(lang)) return {};
   return {
-    title: lang === 'ar' ? 'مدونة - همز العراق' : 'Blog - HMZ Iraq',
+    title: lang === 'ar' ? 'مدونة - hmziraq.tech' : 'Blog - hmziraq.tech',
     description:
       lang === 'ar'
         ? 'تابع آخر المقالات والأخبار حول الخدمات الرقمية، البوتات، تطوير المواقع، وSEO في العراق.'
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
     keywords:
       lang === 'ar'
         ? ['مدونة', 'مقالات', 'همز العراق', 'خدمات رقمية العراق']
-        : ['Blog', 'Articles', 'HMZ Iraq', 'Digital services Iraq']
+        : ['Blog', 'Articles', 'hmziraq.tech', 'Digital services Iraq']
   };
 }
 

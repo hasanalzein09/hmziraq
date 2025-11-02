@@ -6,15 +6,15 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
   const { lang } = await params;
   if (!SUPPORTED_LANGUAGES.includes(lang)) return {};
   return {
-    title: lang === 'ar' ? 'من نحن - همز العراق' : 'About - HMZ Iraq',
+    title: lang === 'ar' ? 'من نحن - hmziraq.tech' : 'About - hmziraq.tech',
     description:
       lang === 'ar'
         ? 'تعرف على فريق همز العراق ورؤيتنا في تقديم حلول رقمية متقدمة للسوق العراقي.'
-        : 'Learn about the HMZ Iraq team and our vision for delivering advanced digital solutions in Iraq.',
+        : 'Learn about the hmziraq.tech team and our vision for delivering advanced digital solutions in Iraq.',
     keywords:
       lang === 'ar'
         ? ['من نحن', 'همز العراق', 'فريق العمل', 'خدمات رقمية العراق']
-        : ['About', 'HMZ Iraq', 'Team', 'Digital services Iraq']
+        : ['About', 'hmziraq.tech', 'Team', 'Digital services Iraq']
   };
 }
 

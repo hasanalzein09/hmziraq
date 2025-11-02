@@ -5,7 +5,7 @@ import type { PortfolioProject } from '@/content/portfolioProjects';
 // خذ أول 200 مشروع فقط لتجنب مشكلة حجم sitemap
 // باقي المشاريع ستُفهرس عبر internal linking و on-demand generation
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
   const firstProjects = portfolioProjects.slice(0, 200); // أول 200 مشروع
   
   const urls = SUPPORTED_LANGUAGES.flatMap(lang => 

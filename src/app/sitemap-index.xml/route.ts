@@ -1,6 +1,6 @@
 // Sitemap Index - master sitemap that links to all other sitemaps
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
 
   const sitemaps = [
     {

@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 // Sitemap Index - يربط جميع ملفات sitemap الفرعية
 // هذا sitemap index يوجه Google إلى جميع ملفات sitemap الفرعية
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
 
   return [
     // الصفحة الرئيسية والصفحات الأساسية

@@ -15,10 +15,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
       title: post.title,
       description: post.summary,
       type: 'article',
-      url: `https://www.hmziraq.services/${lang}/blog/${post.slug}`,
+      url: `https://www.hmziraq.tech/${lang}/blog/${post.slug}`,
     },
     alternates: {
-      canonical: `https://www.hmziraq.services/${lang}/blog/${post.slug}`,
+      canonical: `https://www.hmziraq.tech/${lang}/blog/${post.slug}`,
     },
   };
 }

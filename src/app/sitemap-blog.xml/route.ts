@@ -2,7 +2,7 @@ import { BLOG_POSTS } from '@/content/blogPosts';
 import { SUPPORTED_LANGUAGES } from '@/content/languages';
 
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
   
   const urls = SUPPORTED_LANGUAGES.flatMap(lang => 
     BLOG_POSTS.map(post => ({

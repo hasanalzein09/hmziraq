@@ -9,7 +9,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
 
   return {
-    title: lang === 'ar' ? 'احجز موعد | HMZ Iraq' : 'Book Appointment | HMZ Iraq',
+    title: lang === 'ar' ? 'احجز موعد | hmziraq.tech' : 'Book Appointment | hmziraq.tech',
     description:
       lang === 'ar'
         ? 'احجز استشارة مجانية مع فريقنا - نساعدك في تطوير بوتات واتساب، مواقع ويب، متاجر إلكترونية، SEO وحلول الذكاء الاصطناعي'
@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       lang === 'ar' ? 'احجز موعد' : 'book appointment',
       lang === 'ar' ? 'استشارة مجانية' : 'free consultation',
       lang === 'ar' ? 'تواصل معنا' : 'contact us',
-      'HMZ Iraq',
+      'hmziraq.tech',
       'Baghdad',
     ],
     openGraph: {
-      title: lang === 'ar' ? 'احجز موعد | HMZ Iraq' : 'Book Appointment | HMZ Iraq',
+      title: lang === 'ar' ? 'احجز موعد | hmziraq.tech' : 'Book Appointment | hmziraq.tech',
       description:
         lang === 'ar'
           ? 'احجز استشارة مجانية مع فريقنا'

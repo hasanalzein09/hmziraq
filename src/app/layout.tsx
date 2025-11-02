@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.hmziraq.services'),
+  metadataBase: new URL('https://www.hmziraq.tech'),
   title: {
-    default: 'HMZ Iraq - تطوير المواقع والتطبيقات في العراق',
-    template: '%s | HMZ Iraq'
+    default: 'hmziraq.tech - تطوير المواقع والتطبيقات في العراق',
+    template: '%s | hmziraq.tech'
   },
   description: 'شركة متخصصة في تطوير المواقع، التطبيقات، بوتات واتساب، المتاجر الإلكترونية، وحلول الذكاء الاصطناعي في العراق',
   keywords: [
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     'Web development Iraq',
     'Mobile apps Iraq'
   ],
-  authors: [{ name: 'Hassan Zein', url: 'https://www.hmziraq.services' }],
-  creator: 'HMZ Iraq',
-  publisher: 'HMZ Iraq',
+  authors: [{ name: 'Hassan Zein', url: 'https://www.hmziraq.tech' }],
+  creator: 'hmziraq.tech',
+  publisher: 'hmziraq.tech',
   
   // Verification codes for search engines
   verification: {
@@ -47,16 +47,16 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ar_IQ',
     alternateLocale: ['en_US'],
-    url: 'https://www.hmziraq.services',
-    siteName: 'HMZ Iraq',
-    title: 'HMZ Iraq - تطوير المواقع والتطبيقات في العراق',
+    url: 'https://www.hmziraq.tech',
+    siteName: 'hmziraq.tech',
+    title: 'hmziraq.tech - تطوير المواقع والتطبيقات في العراق',
     description: 'شركة متخصصة في تطوير المواقع، التطبيقات، وحلول الذكاء الاصطناعي في العراق',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'HMZ Iraq'
+        alt: 'hmziraq.tech'
       }
     ]
   },
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@hmziraq',
     creator: '@hmziraq',
-    title: 'HMZ Iraq - تطوير المواقع والتطبيقات في العراق',
+    title: 'hmziraq.tech - تطوير المواقع والتطبيقات في العراق',
     description: 'شركة متخصصة في تطوير المواقع، التطبيقات، وحلول الذكاء الاصطناعي في العراق',
     images: ['/og-image.jpg']
   },
@@ -86,21 +86,21 @@ export const metadata: Metadata = {
   
   // Alternate languages
   alternates: {
-    canonical: 'https://www.hmziraq.services',
+    canonical: 'https://www.hmziraq.tech',
     languages: {
-      'ar': 'https://www.hmziraq.services/ar',
-      'en': 'https://www.hmziraq.services/en',
+      'ar': 'https://www.hmziraq.tech/ar',
+      'en': 'https://www.hmziraq.tech/en',
     },
   },
   
   // Other metadata
   other: {
     // OpenAI/ChatGPT specific
-    'openai:title': 'HMZ Iraq - Web & App Development',
+    'openai:title': 'hmziraq.tech - Web & App Development',
     'openai:description': 'Specialized company in web development, apps, and AI solutions in Iraq',
     
     // Additional meta tags
-    'article:publisher': 'HMZ Iraq',
+    'article:publisher': 'hmziraq.tech',
     'article:author': 'Hassan Zein',
   },
 };
@@ -130,7 +130,7 @@ export default function RootLayout({
         </Script>
         
         {/* RSS Feed */}
-        <link rel="alternate" type="application/rss+xml" title="HMZ Iraq RSS Feed" href="/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="hmziraq.tech RSS Feed" href="/feed.xml" />
         
         {/* Favicon and App Icons */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -143,11 +143,11 @@ export default function RootLayout({
             {
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://www.hmziraq.services/#organization",
-              "name": "HMZ Iraq",
-              "alternateName": "حسان الزين - HMZ Iraq",
-              "url": "https://www.hmziraq.services",
-              "logo": "https://www.hmziraq.services/logo.png",
+              "@id": "https://www.hmziraq.tech/#organization",
+              "name": "hmziraq.tech",
+              "alternateName": "حسان الزين",
+              "url": "https://www.hmziraq.tech",
+              "logo": "https://www.hmziraq.tech/logo.png",
               "description": "شركة متخصصة في تطوير المواقع والتطبيقات والحلول الرقمية في العراق",
               "foundingDate": "2020",
               "address": {
@@ -178,16 +178,16 @@ export default function RootLayout({
             {
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "@id": "https://www.hmziraq.services/#website",
-              "url": "https://www.hmziraq.services",
-              "name": "HMZ Iraq",
+              "@id": "https://www.hmziraq.tech/#website",
+              "url": "https://www.hmziraq.tech",
+              "name": "hmziraq.tech",
               "publisher": {
-                "@id": "https://www.hmziraq.services/#organization"
+                "@id": "https://www.hmziraq.tech/#organization"
               },
               "inLanguage": ["ar", "en"],
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://www.hmziraq.services/search?q={search_term_string}",
+                "target": "https://www.hmziraq.tech/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             }

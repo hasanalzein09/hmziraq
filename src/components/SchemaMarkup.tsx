@@ -22,9 +22,9 @@ const SchemaMarkup = ({ lang, service, business, city, faqs }: SchemaMarkupProps
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    'name': 'HMZ IRAQ - همز العراق',
-    'url': `https://www.hmziraq.services/${lang}`,
-    'logo': `https://www.hmziraq.services/logo.png`,
+    'name': 'hmziraq.tech',
+    'url': `https://www.hmziraq.tech/${lang}`,
+    'logo': `https://www.hmziraq.tech/logo.png`,
     'contactPoint': {
       '@type': 'ContactPoint',
       'telephone': '+964-XXX-XXXXXX',
@@ -42,7 +42,7 @@ const SchemaMarkup = ({ lang, service, business, city, faqs }: SchemaMarkupProps
     'serviceType': service.name[lang],
     'provider': {
       '@type': 'Organization',
-      'name': 'HMZ IRAQ - همز العراق',
+      'name': 'hmziraq.tech',
     },
     'areaServed': {
       '@type': 'Country',
@@ -100,12 +100,12 @@ export function LocalBusinessSchema({ service, city, lang }: LocalBusinessSchema
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': `https://www.hmziraq.services#${service.en.toLowerCase().replace(/\s+/g, '-')}-${city.key}`,
+    '@id': `https://www.hmziraq.tech#${service.en.toLowerCase().replace(/\s+/g, '-')}-${city.key}`,
     name: lang === 'ar' 
       ? `${service.ar} في ${city.ar} - حسان الزين`
       : `${service.en} in ${city.en} - Hassan Alzain`,
-    alternateName: 'HMZ Iraq Digital Solutions',
-    url: `https://www.hmziraq.services/${lang}/services/${service.en.toLowerCase().replace(/\s+/g, '-')}/in/${city.key}`,
+    alternateName: 'hmziraq.tech Digital Solutions',
+    url: `https://www.hmziraq.tech/${lang}/services/${service.en.toLowerCase().replace(/\s+/g, '-')}/in/${city.key}`,
     telephone: '+964-750-XXX-XXXX',
     priceRange: '$$',
     address: {
@@ -159,11 +159,11 @@ export function OrganizationSchema({ lang }: OrganizationSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://www.hmziraq.services#organization',
-    name: 'HMZ Iraq - حسان الزين',
+    '@id': 'https://www.hmziraq.tech#organization',
+    name: 'hmziraq.tech - حسان الزين',
     alternateName: lang === 'ar' ? 'حسان الزين للحلول الرقمية' : 'Hassan Alzain Digital Solutions',
-    url: 'https://www.hmziraq.services',
-    logo: 'https://www.hmziraq.services/logo.png',
+    url: 'https://www.hmziraq.tech',
+    logo: 'https://www.hmziraq.tech/logo.png',
     description: lang === 'ar'
       ? 'شركة متخصصة في تطوير المواقع والتطبيقات والحلول الرقمية في العراق'
       : 'Specialized company in web development, apps, and digital solutions in Iraq',
@@ -263,13 +263,13 @@ export function ArticleSchema({
     },
     publisher: {
       '@type': 'Organization',
-      name: 'HMZ Iraq',
+      name: 'hmziraq.tech',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.hmziraq.services/logo.png',
+        url: 'https://www.hmziraq.tech/logo.png',
       },
     },
-    image: imageUrl || 'https://www.hmziraq.services/default-article-image.jpg',
+    image: imageUrl || 'https://www.hmziraq.tech/default-article-image.jpg',
     url: url,
     mainEntityOfPage: {
       '@type': 'WebPage',

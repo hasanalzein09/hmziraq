@@ -65,7 +65,7 @@ export async function POST(request: Request) {
           </table>
           
           <div style="margin-top: 30px; padding: 20px; background: white; border-left: 4px solid #667eea;">
-            <p style="margin: 0; color: #6b7280;">${lang === 'ar' ? 'تم إرسال هذا الطلب من موقع hmziraq.services' : 'This inquiry was sent from hmziraq.services'}</p>
+            <p style="margin: 0; color: #6b7280;">${lang === 'ar' ? 'تم إرسال هذا الطلب من موقع hmziraq.tech' : 'This inquiry was sent from hmziraq.tech'}</p>
           </div>
         </div>
         
@@ -78,7 +78,7 @@ export async function POST(request: Request) {
     // Send to both email addresses
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: ['sales@hmziraq.services', 'hasanalzein2024@gmail.com'],
+      to: ['contact@hmziraq.tech', 'hasanalzein2024@gmail.com'],
       subject: `${lang === 'ar' ? 'استفسار جديد من' : 'New Inquiry from'} ${name}`,
       html: emailContent,
       replyTo: email,

@@ -34,13 +34,13 @@ export default function ContactInfo({ lang = 'ar', variant = 'inline' }: Contact
           <span className="font-semibold">+964 70 106 0083</span>
         </a>
         <a 
-          href="mailto:sales@hmziraq.services" 
+          href="mailto:contact@hmziraq.tech" 
           className="flex items-center gap-2 text-white hover:text-purple-200 transition-colors"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
-          <span className="font-semibold">sales@hmziraq.services</span>
+          <span className="font-semibold">contact@hmziraq.tech</span>
         </a>
       </div>
     );
@@ -67,7 +67,7 @@ export default function ContactInfo({ lang = 'ar', variant = 'inline' }: Contact
           </a>
           
           <a 
-            href="mailto:sales@hmziraq.services" 
+            href="mailto:contact@hmziraq.tech" 
             className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
           >
             <div className="bg-purple-600 p-2 rounded-lg group-hover:bg-purple-500 transition-colors">
@@ -77,7 +77,7 @@ export default function ContactInfo({ lang = 'ar', variant = 'inline' }: Contact
             </div>
             <div>
               <p className="text-sm text-gray-400">{t.email}</p>
-              <p className="font-semibold">sales@hmziraq.services</p>
+              <p className="font-semibold">contact@hmziraq.tech</p>
             </div>
           </a>
         </div>
@@ -101,13 +101,13 @@ export default function ContactInfo({ lang = 'ar', variant = 'inline' }: Contact
       <div className="hidden sm:block w-px h-8 bg-white/30"></div>
       
       <a 
-        href="mailto:sales@hmziraq.services" 
+        href="mailto:contact@hmziraq.tech" 
         className="flex items-center gap-2 hover:scale-105 transition-transform"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
-        <span className="font-bold text-lg">sales@hmziraq.services</span>
+        <span className="font-bold text-lg">contact@hmziraq.tech</span>
       </a>
     </div>
   );

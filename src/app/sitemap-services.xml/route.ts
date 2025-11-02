@@ -3,7 +3,7 @@ import { SUPPORTED_LANGUAGES } from '@/content/languages';
 import { MAIN_CITIES } from '@/content/iraqCities';
 
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
   
   const urls = SUPPORTED_LANGUAGES.flatMap(lang => [
     // صفحات الخدمات الرئيسية

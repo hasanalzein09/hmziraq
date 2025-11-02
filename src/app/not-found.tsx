@@ -3,7 +3,7 @@ import { SERVICES } from '@/content/services';
 import { portfolioProjects } from '@/content/portfolioProjects';
 
 export const metadata = {
-  title: 'الصفحة غير موجودة - 404 | HMZ Iraq',
+  title: 'الصفحة غير موجودة - 404 | hmziraq.tech',
   description: 'الصفحة التي تبحث عنها غير موجودة. تصفح خدماتنا ومشاريعنا أو تواصل معنا.',
   robots: {
     index: false,

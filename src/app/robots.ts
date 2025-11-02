@@ -25,12 +25,12 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      'https://www.hmziraq.services/sitemap.xml',
-      'https://www.hmziraq.services/sitemap-programmatic.xml',
-      'https://www.hmziraq.services/sitemap-projects.xml',
-      'https://www.hmziraq.services/sitemap-services.xml',
-      'https://www.hmziraq.services/sitemap-blog.xml',
+      'https://www.hmziraq.tech/sitemap.xml',
+      'https://www.hmziraq.tech/sitemap-programmatic.xml',
+      'https://www.hmziraq.tech/sitemap-projects.xml',
+      'https://www.hmziraq.tech/sitemap-services.xml',
+      'https://www.hmziraq.tech/sitemap-blog.xml',
     ],
-    host: 'https://www.hmziraq.services',
+    host: 'https://www.hmziraq.tech',
   };
 }

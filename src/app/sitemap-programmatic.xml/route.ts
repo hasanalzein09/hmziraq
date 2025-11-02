@@ -4,7 +4,7 @@ import { BUSINESS_TYPES } from '@/content/businessTypes';
 import { IRAQ_CITIES } from '@/content/iraqCities';
 
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
 
   // ============================================================================
   // 🚀 MEGA SITEMAP: ALL 85 SERVICES × 198 BUSINESSES × 26 CITIES

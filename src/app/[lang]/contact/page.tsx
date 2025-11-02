@@ -6,7 +6,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
   const { lang } = await params;
   if (!SUPPORTED_LANGUAGES.includes(lang)) return {};
   return {
-    title: lang === 'ar' ? 'تواصل معنا - همز العراق' : 'Contact - HMZ Iraq',
+    title: lang === 'ar' ? 'تواصل معنا - hmziraq.tech' : 'Contact - hmziraq.tech',
     description:
       lang === 'ar'
         ? 'تواصل مع فريق همز العراق لأي استفسار أو طلب خدمة رقمية متقدمة.'

@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
   const { lang } = await params;
   if (!SUPPORTED_LANGUAGES.includes(lang)) return {};
   return {
-    title: lang === 'ar' ? 'همز العراق - 85+ خدمة رقمية لـ 198+ نوع عمل' : 'HMZ Iraq - 85+ Digital Services for 198+ Business Types',
+    title: lang === 'ar' ? 'hmziraq.tech - 85+ خدمة رقمية لـ 198+ نوع عمل' : 'hmziraq.tech - 85+ Digital Services for 198+ Business Types',
     description:
       lang === 'ar'
         ? 'منصة عراقية رائدة: 85 خدمة رقمية متقدمة تغطي 198 نوع عمل في 26 مدينة. بوتات ذكاء اصطناعي، تجارة إلكترونية، تطبيقات، تسويق، وأمن سيبراني.'

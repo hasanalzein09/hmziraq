@@ -2,7 +2,7 @@ import { portfolioProjects } from '@/content/portfolioProjects';
 import { BLOG_POSTS } from '@/content/blogPosts';
 
 export async function GET() {
-  const baseUrl = 'https://www.hmziraq.services';
+  const baseUrl = 'https://www.hmziraq.tech';
   const currentDate = new Date().toISOString();
 
   // RSS Feed for blog posts and projects
@@ -32,15 +32,15 @@ export async function GET() {
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HMZ Iraq - أحدث المشاريع والمقالات</title>
+    <title>hmziraq.tech - أحدث المشاريع والمقالات</title>
     <link>${baseUrl}</link>
-    <description>آخر المشاريع والمقالات من HMZ Iraq - تطوير المواقع والتطبيقات في العراق</description>
+    <description>آخر المشاريع والمقالات من hmziraq.tech - تطوير المواقع والتطبيقات في العراق</description>
     <language>ar</language>
     <lastBuildDate>${currentDate}</lastBuildDate>
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>${baseUrl}/logo.png</url>
-      <title>HMZ Iraq</title>
+      <title>hmziraq.tech</title>
       <link>${baseUrl}</link>
     </image>
 ${items.map(item => `    <item>

@@ -7,7 +7,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Lan
   const { lang } = await params;
   if (!SUPPORTED_LANGUAGES.includes(lang)) return {};
   return {
-    title: lang === 'ar' ? 'الخدمات - همز العراق' : 'Services - HMZ Iraq',
+    title: lang === 'ar' ? 'الخدمات - hmziraq.tech' : 'Services - hmziraq.tech',
     description:
       lang === 'ar'
         ? 'جميع خدمات بوتات واتساب، إنستغرام، فيسبوك، تطوير مواقع Next.js، ووردبريس، متاجر WooCommerce، تحسين SEO، وأتمتة الذكاء الاصطناعي في العراق.'

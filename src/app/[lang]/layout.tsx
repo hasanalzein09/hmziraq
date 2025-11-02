@@ -22,7 +22,7 @@ export default async function Layout({
           <div className="container mx-auto px-4 py-4">
             <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
               <a href={`/${lang}`} className="text-3xl font-bold hover:scale-105 transition-transform">
-                {lang === 'ar' ? 'همز العراق' : 'HMZ Iraq'}
+                hmziraq.tech
               </a>
               <nav className="flex flex-wrap gap-6 text-lg">
                 <a href={`/${lang}/services`} className="hover:text-yellow-300 transition-colors font-semibold">
@@ -52,7 +52,7 @@ export default async function Layout({
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-gradient-gold">
-                  {lang === 'ar' ? 'همز العراق' : 'HMZ Iraq'}
+                  hmziraq.tech
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   {lang === 'ar' 
@@ -92,7 +92,7 @@ export default async function Layout({
             
             <div className="border-t border-gray-700 pt-8 text-center">
               <p className="text-gray-400 text-lg">
-                © 2025 {lang === 'ar' ? 'همز العراق' : 'HMZ Iraq'}. {lang === 'ar' ? 'جميع الحقوق محفوظة' : 'All rights reserved'}.
+                © 2025 hmziraq.tech. {lang === 'ar' ? 'جميع الحقوق محفوظة' : 'All rights reserved'}.
               </p>
             </div>
           </div>

@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     keywords:
       lang === 'ar'
         ? ['مدونة', 'مقالات', 'همز العراق', 'خدمات رقمية العراق']
-        : ['Blog', 'Articles', 'HMZ Iraq', 'Digital services Iraq'],
+        : ['Blog', 'Articles', 'hmziraq.tech', 'Digital services Iraq'],
     alternates: {
-      canonical: `https://www.hmziraq.services/${lang}/blog/page/${pageNum}`,
+      canonical: `https://www.hmziraq.tech/${lang}/blog/page/${pageNum}`,
     },
   };
 }

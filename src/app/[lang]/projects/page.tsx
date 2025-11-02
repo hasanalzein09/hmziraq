@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
 
   return {
-    title: lang === 'ar' ? 'جميع المشاريع | HMZ Iraq' : 'All Projects | HMZ Iraq',
+    title: lang === 'ar' ? 'جميع المشاريع | hmziraq.tech' : 'All Projects | hmziraq.tech',
     description:
       lang === 'ar'
         ? '400 مشروع ناجح في العراق - شاهد أعمالنا في تطوير بوتات واتساب، مواقع ويب، متاجر إلكترونية، SEO، وحلول الذكاء الاصطناعي'
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ...SERVICES.flatMap((s) => s.keywords).slice(0, 10),
     ],
     openGraph: {
-      title: lang === 'ar' ? 'جميع المشاريع | HMZ Iraq' : 'All Projects | HMZ Iraq',
+      title: lang === 'ar' ? 'جميع المشاريع | hmziraq.tech' : 'All Projects | hmziraq.tech',
       description:
         lang === 'ar'
           ? '400 مشروع ناجح في العراق'
