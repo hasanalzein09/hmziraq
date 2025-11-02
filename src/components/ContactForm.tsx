@@ -7,14 +7,15 @@ interface ContactFormProps {
   serviceContext?: string;
   businessContext?: string;
   cityContext?: string;
+  servicePreselect?: string;
 }
 
-export default function ContactForm({ lang, serviceContext, businessContext, cityContext }: ContactFormProps) {
+export default function ContactForm({ lang, serviceContext, businessContext, cityContext, servicePreselect }: ContactFormProps) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    serviceInterest: serviceContext || '',
+    serviceInterest: servicePreselect || serviceContext || '',
     message: '',
   });
 

@@ -58,7 +58,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
   };
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen scroll-smooth">
       {/* Hero Section with Dramatic Gradient */}
       <section className="relative py-24 px-4 overflow-hidden">
         {/* Animated Background */}
@@ -134,8 +134,9 @@ export default async function ServicesPage({ params }: { params: Promise<{ lang:
                     return (
                       <a
                         key={service.key}
-                        href={`/${lang}/services#${service.key}`}
-                        className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-rotate-1"
+                        id={service.key}
+                        href={`/${lang}/services/${service.key}`}
+                        className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-rotate-1 scroll-mt-24 block"
                       >
                         {/* Gradient Background */}
                         <div className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-90 group-hover:opacity-100 transition-opacity`} />
